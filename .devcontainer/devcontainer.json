@@ -1,0 +1,21 @@
+{
+  "name": "Apollo Client dev",
+  "dockerComposeFile": [
+    "../docker-compose.yml",
+    "docker-compose.yml"
+  ],
+  "service": "node",
+  "workspaceFolder": "/workspace",
+  "runServices": [
+    "node"
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "VisualStudioExptTeam.vscodeintellicode",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
